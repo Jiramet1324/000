@@ -1,0 +1,21 @@
+body{
+    background-color: darkcyan;
+}
+
+div {
+  background-image: url('Konachan.com - 266197 sample.jpg');
+}
+
+h1{
+    color: azure;
+    margin-left: 20px;
+    font-size: 90px;
+}
+#paral{
+    text-align: center;
+    color: darkgreen;
+}
+#ccenter{
+    text-align: center;
+    color: rgb(111, 255, 111);
+}
