@@ -2,10 +2,6 @@ body{
     background-color: darkcyan;
 }
 
-div {
-  background-image: url('Konachan.jpg');
-}
-
 h1{
     color: azure;
     margin-left: 20px;
