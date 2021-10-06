@@ -1,17 +1,13 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-void Login();
+void login();
 void ONA();
 void DM();
 void WM();
 void SA();
 
 //-----------------------------
-
-int accountNumber = 12345;
-int pinNumber = 54321;
-int balance = 0;
 
 class LoginManager
 {
@@ -23,11 +19,12 @@ public:
 	}
 	void login()
 	{
+		char PassAttempt[6];
 		cout << "\n\n\n\t  BANK";
 		cout << "\n\n\t  SYSTEM";
 		cout << "\n\n\n\nUser ";
 		cout << "\n\n\n\nUser ID :";
-		cin >> UserAttempt();
+		cin >> UserAttempt;
 
 		User = getFile("User.dat");
 		if (UserAttempt == User)
@@ -101,8 +98,8 @@ public:
 	private:
 		string Pass;
 		string User;
-		string userNameAttempt;
-		string passwordAttempt;
+		string UserAttempt;
+		string PassAttempt;
 		bool accessGranted;
 	};
 
@@ -110,7 +107,7 @@ public:
 int main() {
 	char ch;
 	int num;
-	Login();
+	login();
 	do
 	{
 		system("cls");
