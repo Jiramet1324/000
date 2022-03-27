@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T08:16:39.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52" etag="pGSH1X_2_qPuPAtegskE" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T08:17:22.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52" etag="1sAfp3c9t1CvF3Z_iIR-" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1106" dy="196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="86hyNVgNyFr579L64Pvy-8" value="&amp;nbsp;+ buildDeck () :&amp;nbsp;List&amp;lt;Card&amp;gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
           <mxGeometry y="180" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="86hyNVgNyFr579L64Pvy-10" value="&amp;nbsp;+ winCheck () : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
+        <mxCell id="86hyNVgNyFr579L64Pvy-10" value="&amp;nbsp;+ winCheck (int) : void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
           <mxGeometry y="210" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="86hyNVgNyFr579L64Pvy-11" value="&amp;nbsp;+ betAmount () : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
