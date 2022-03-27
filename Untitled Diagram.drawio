@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T09:27:45.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52" etag="FocLF-HICSMQNM3ZimIr" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T11:36:14.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52" etag="k-jX3d9tTv07crenfEec" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="509" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1065" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="86hyNVgNyFr579L64Pvy-1" value="blackjack" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Times New Roman;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="480" width="520" height="420" as="geometry" />
+          <mxGeometry x="60" y="480" width="520" height="420" as="geometry" />
         </mxCell>
         <mxCell id="86hyNVgNyFr579L64Pvy-7" value="&lt;span&gt;&amp;nbsp;+ INITIAL_MONEY :&amp;nbsp;int&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
           <mxGeometry y="26" width="520" height="30" as="geometry" />
@@ -19,7 +19,7 @@
         <mxCell id="86hyNVgNyFr579L64Pvy-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Times New Roman;fontSize=14;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
           <mxGeometry y="116" width="520" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="bj7knA4HLaOsED4XYMZl-0" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;+ main () : void&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="86hyNVgNyFr579L64Pvy-1">
+        <mxCell id="bj7knA4HLaOsED4XYMZl-0" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;+ main (&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; font-size: 14px&quot;&gt;String[] arg&lt;/span&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;) : void&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="86hyNVgNyFr579L64Pvy-1">
           <mxGeometry y="124" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bj7knA4HLaOsED4XYMZl-2" value="&amp;nbsp;+ wait (int ms) : void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="86hyNVgNyFr579L64Pvy-1">
@@ -34,7 +34,7 @@
         <mxCell id="86hyNVgNyFr579L64Pvy-9" value="&amp;nbsp;+ shuffleDeck (List&amp;lt;Card&amp;gt;&amp;nbsp; deck) :&amp;nbsp;List&amp;lt;Card&amp;gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
           <mxGeometry y="240" width="520" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="86hyNVgNyFr579L64Pvy-10" value="&amp;nbsp;+ winCheck (int total, int dealer, int to_play) : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
+        <mxCell id="86hyNVgNyFr579L64Pvy-10" value="&amp;nbsp;+ winCheck (int total, int dealer, int bet) : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
           <mxGeometry y="270" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="86hyNVgNyFr579L64Pvy-11" value="&amp;nbsp;+ betAmount (int money, Scanner console) : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-1" vertex="1">
@@ -50,7 +50,7 @@
           <mxGeometry y="390" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="86hyNVgNyFr579L64Pvy-14" value="Card" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="400" y="160" width="300" height="296" as="geometry" />
+          <mxGeometry x="670" y="460" width="300" height="296" as="geometry" />
         </mxCell>
         <mxCell id="86hyNVgNyFr579L64Pvy-15" value="- value : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
@@ -73,14 +73,21 @@
         <mxCell id="86hyNVgNyFr579L64Pvy-21" value="&amp;nbsp;+&amp;nbsp;printCard () : void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
           <mxGeometry y="180" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="86hyNVgNyFr579L64Pvy-17" value=" + giveValue () : int " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
-          <mxGeometry y="210" width="300" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="86hyNVgNyFr579L64Pvy-23" value="&amp;nbsp;+&amp;nbsp;&amp;nbsp;isAce () : boolean" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
-          <mxGeometry y="236" width="300" height="30" as="geometry" />
+          <mxGeometry y="210" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="86hyNVgNyFr579L64Pvy-17" value="+ giveValue () : int " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
+          <mxGeometry y="240" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="86hyNVgNyFr579L64Pvy-24" value="&amp;nbsp;- determineCardValue (String name) : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
           <mxGeometry y="266" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bj7knA4HLaOsED4XYMZl-3" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Times New Roman;fontSize=14;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="86hyNVgNyFr579L64Pvy-20" target="bj7knA4HLaOsED4XYMZl-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="570" as="sourcePoint" />
+            <mxPoint x="740" y="610" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
