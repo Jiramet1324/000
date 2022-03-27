@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T08:39:31.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52" etag="8vzoRKAhP1exZpNbrwxZ" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T09:27:45.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.52" etag="FocLF-HICSMQNM3ZimIr" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="509" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="86hyNVgNyFr579L64Pvy-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
           <mxGeometry y="142" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="86hyNVgNyFr579L64Pvy-22" value="&amp;nbsp;+&amp;nbsp;Card :" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
+        <mxCell id="86hyNVgNyFr579L64Pvy-22" value="&amp;nbsp;+&amp;nbsp;Card (String name, String suite) :" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
           <mxGeometry y="150" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="86hyNVgNyFr579L64Pvy-21" value="&amp;nbsp;+&amp;nbsp;printCard () : void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
@@ -79,7 +79,7 @@
         <mxCell id="86hyNVgNyFr579L64Pvy-23" value="&amp;nbsp;+&amp;nbsp;&amp;nbsp;isAce () : boolean" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
           <mxGeometry y="236" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="86hyNVgNyFr579L64Pvy-24" value="&amp;nbsp;+&amp;nbsp;determineCardValue () : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
+        <mxCell id="86hyNVgNyFr579L64Pvy-24" value="&amp;nbsp;- determineCardValue (String name) : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=14;fontColor=default;" parent="86hyNVgNyFr579L64Pvy-14" vertex="1">
           <mxGeometry y="266" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
